@@ -1,0 +1,14 @@
+:root {
+  --color-red: #FF585B;
+  --color-green: #5cb85c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, #root {
+  min-height: 100vh;
+}
