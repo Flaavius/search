@@ -1,8 +1,8 @@
 import { useState, useRef, useEffect, KeyboardEventHandler } from "react";
 import StyledSearchBox from "./SearchBox.style";
 
-import { SearchIcon } from "../searchIcon/SearchIcon";
-import { CloseIcon } from "../searchIcon/CloseIcon";
+import { SearchIcon } from "../icons/SearchIcon";
+import { CloseIcon } from "../icons/CloseIcon";
 import { Page, pages } from "../../constants";
 
 const getResults = (max: number) => (data: Page[], value: string): Page[] => {
